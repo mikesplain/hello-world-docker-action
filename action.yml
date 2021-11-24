@@ -10,6 +10,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'ghcr.io/mikesplain/hello-world-docker-action:main'
   args:
     - ${{ inputs.who-to-greet }}
